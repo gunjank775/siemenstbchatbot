@@ -1,0 +1,10 @@
+version: '3.0'
+services:
+  rasaapi:
+    image: chatbot:1.0
+    ports:
+      - 5005:5005
+  action-server:
+    image: chatbot:1.1
+    ports:
+      - 5055:5055
